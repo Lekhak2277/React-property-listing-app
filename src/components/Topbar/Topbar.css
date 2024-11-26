@@ -1,0 +1,77 @@
+.topbar
+{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(241, 166, 67);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway','sans-serif';
+    z-index: 10;
+}
+
+.topbar-right , .topbar-left
+{
+    width: 25%;
+    /* flex: 3; */
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.topbar-center
+{
+    /* flex: 6; */
+    /* background-color: rgb(176, 11, 11); */
+    width: 50%;
+}
+
+.topbar-profile-pic
+{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topbar-social-icon
+{
+    margin-right: 0.8rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color:var(--primary-color)
+}
+
+.topbar-list
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.topbar-list-item
+{
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.topbar-search
+{
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    color: rgb(6, 68, 68);
+    cursor: pointer;
+}
+
+a , a:visited ,a:hover,a:active
+{
+    text-decoration: none;
+    color: inherit;
+}
